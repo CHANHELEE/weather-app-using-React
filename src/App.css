@@ -1,0 +1,57 @@
+body{
+  background: url(https://wallpaperset.com/w/full/3/5/6/60280.jpg) ;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weather-box{
+  color: white;
+  border: 3px solid white;
+  padding : 60px;
+  width: 500px;
+  border-radius: 30px ;
+}
+
+.weather-box *{
+  padding :10px;
+}
+
+.weather-button {
+  margin-top: 30px;
+  display: flex;
+  gap:5px;
+
+}
+
+.weather-button button {
+  font-weight: bold;
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+@media (max-width: 767px ){
+
+  .weather-button  {
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+
+  .weather-box{
+    color: white;
+    border: 3px solid white;
+    padding : 60px;
+    width: 300px;
+    border-radius: 30px ;
+  }
+}
